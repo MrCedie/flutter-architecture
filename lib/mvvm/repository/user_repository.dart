@@ -1,6 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_architectures/mvvm/model/user_model.dart';
 
+final dio = Dio();
+
 class UserRepository {
   Future<User> fetchUser() async {
     Response response =

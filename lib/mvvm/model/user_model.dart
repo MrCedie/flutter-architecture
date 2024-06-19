@@ -1,7 +1,3 @@
-import 'package:dio/dio.dart';
-
-final dio = Dio();
-
 class User {
   final int id;
   final String name;
